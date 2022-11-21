@@ -5,7 +5,7 @@ from PIL import Image
 
 def main_loop():
     st.title("CV Assignment 5")
-    st.subheader("Implement image segmentaion using grabcut algorithm for multiple objects in image")
+    st.subheader("Implement image segmentation using grabcut algorithm for multiple objects in image")
     st.text("Name: Kshitija Lade")
     st.text("Roll No.: 253")
     st.text("PRN: 0120190090")
