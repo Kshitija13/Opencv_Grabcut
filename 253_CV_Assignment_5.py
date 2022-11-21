@@ -29,7 +29,7 @@ def main_loop():
     mask2 = np.where((mask == 2) | (mask == 0), 0, 1).astype('uint8')
     img = original_image * mask2[:, :, np.newaxis]
 
-    st.text("Grabcut Algorithm")
+    st.text("*************************************Grabcut Algorithm*************************************")
     st.text("Original Image")
     st.image(original_image)
     st.text("Grabcut Image")
